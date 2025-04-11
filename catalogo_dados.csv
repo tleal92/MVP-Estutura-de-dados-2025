@@ -1,0 +1,7 @@
+coluna,tipo,descricao,dominio_exemplo
+nis_beneficiario,id,Identificador do beneficiário,N/A
+nome_beneficiario,string,Nome do beneficiário,João da Silva
+uf,string,Unidade Federativa,RJ, SP, MG
+municipio,string,Nome do município,Rio de Janeiro
+valor_parcela,float,Valor da parcela recebida,600.00
+competencia,date,Mês de referência,2023-01
