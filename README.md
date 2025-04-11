@@ -11,7 +11,6 @@ O objetivo deste projeto é analisar os dados de campanhas de marketing de um ba
 - `data/`: Contém o dataset original ('bank-full.csv','bank_data_tratado.parquet').
 - `notebooks/`: Contém notebooks utilizados para análise e ETL.
 - `documentacao/`: Documentos de suporte como objetivo, modelagem, catálogo de dados, autoavaliação, etc.
-- `evidencias/`: Prints e evidências da execução no Databricks.
 
 ## ⚙️ Pipeline de Engenharia de Dados
 
