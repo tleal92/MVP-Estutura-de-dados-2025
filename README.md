@@ -1,28 +1,38 @@
-# Projeto de Engenharia de Dados - Auxílio Brasil
+# Projeto MVP - Engenharia de Dados - Bank Marketing
 
-## 🎯 Objetivo
-Analisar a distribuição e impacto do programa Auxílio Brasil ao longo de diferentes regiões do Brasil.
+Este repositório contém o projeto final do MVP da disciplina de Engenharia de Dados, utilizando o dataset **Bank Marketing** da UCI Machine Learning Repository.
 
-### Perguntas de negócio:
-1. Qual foi o valor total distribuído por estado?
-2. Qual foi o ticket médio por beneficiário?
-3. Quais os estados com maior número de beneficiários?
-4. Existe correlação entre o valor recebido e a população local?
+## 🔍 Objetivo
 
-## 🔍 Coleta
-Utilizamos o dataset `202301_AuxilioBrasil.csv`, obtido do GitHub:
-https://github.com/tleal92/engenharia-dados-clima-rj
+O objetivo deste projeto é analisar os dados de campanhas de marketing de um banco português e entender **quais fatores influenciam a adesão ao produto de depósito a prazo**. Através de um pipeline completo (busca, coleta, modelagem, carga e análise), este projeto visa responder perguntas de negócio com base nos dados.
 
-O script de coleta está em `scripts/download_auxilio_brasil.py`.
+## 🗂️ Estrutura do Projeto
 
-## 🧱 Modelagem
-O modelo utilizado é um esquema flat (Data Lake). O catálogo completo está em `catalogo_dados.csv`.
+- `data/`: Contém o dataset original ('bank-full.csv','bank_data_tratado.parquet').
+- `notebooks/`: Contém notebooks utilizados para análise e ETL.
+- `documentacao/`: Documentos de suporte como objetivo, modelagem, catálogo de dados, autoavaliação, etc.
 
-## ⚙️ Carga
-Os dados foram carregados para o Databricks Community Edition, via upload manual.
+## ⚙️ Pipeline de Engenharia de Dados
 
-## 📊 Análise
-A análise foi realizada com SQL no Databricks. As evidências estão no notebook e em capturas de tela.
+1. **Busca e Coleta dos Dados**  
+   O dataset foi obtido do UCI Machine Learning Repository.
 
-## ✅ Autoavaliação
-O projeto atinge os objetivos propostos, com pipeline completo: coleta, modelagem, carga e análise.
+2. **Modelagem dos Dados**  
+   Utilizado modelo em **Esquema Estrela** com uma tabela fato e três dimensões.
+
+3. **Carga e Transformação**  
+   Processo ETL feito na plataforma **Databricks Community Edition**, com tratamento, normalização e carga dos dados.
+
+4. **Análise de Qualidade e Negócio**  
+   Análise exploratória, validação de atributos, e respostas às perguntas de negócio.
+
+## 📊 Ferramentas Utilizadas
+
+- Databricks Community Edition
+- Python (pandas, numpy, sklearn, matplotlib)
+- Git e GitHub
+
+## 👨‍💻 Autor
+
+- Nome: Thales Leal
+- GitHub: https://github.com/tleal192
