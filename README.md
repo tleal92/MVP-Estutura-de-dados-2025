@@ -8,7 +8,7 @@ O objetivo deste projeto é analisar os dados de campanhas de marketing de um ba
 
 ## 🗂️ Estrutura do Projeto
 
-- `data/`: Contém o dataset original (`bank-full.csv`).
+- `data/`: Contém o dataset original ('bank-full.csv','bank_data_tratado.parquet').
 - `notebooks/`: Contém notebooks utilizados para análise e ETL.
 - `documentacao/`: Documentos de suporte como objetivo, modelagem, catálogo de dados, autoavaliação, etc.
 - `evidencias/`: Prints e evidências da execução no Databricks.
@@ -35,5 +35,5 @@ O objetivo deste projeto é analisar os dados de campanhas de marketing de um ba
 
 ## 👨‍💻 Autor
 
-- Nome: [Seu Nome]
+- Nome: Thales Leal
 - GitHub: https://github.com/tleal192
